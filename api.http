@@ -1,0 +1,16 @@
+POST http://localhost:3001/auth
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "123456"
+}
+
+###
+GET http://localhost:3001/auth
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoidXNlcjFAdXNlci5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE0NTU4MTMsImV4cCI6MTcwMTQ1OTQxM30.zFJ0SSmZkJ-_CRzwYdIwMNytbppWhye0ib3aIKLd2bk
+
+###
+GET http://localhost:3001/Users
+Content-Type: application/json
